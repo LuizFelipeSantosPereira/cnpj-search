@@ -1,0 +1,61 @@
+*{
+  box-sizing: border-box;
+}
+.App {
+  padding-top: 32px;
+  min-height: 100vh;
+  background-color: #282c34;
+  text-align: center;
+}
+.App-header{
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 24px;
+}
+.App-header input{
+  padding: 8px;
+  font-size: 22px;
+  border-radius: 10px;
+  outline: none;
+}
+.App-header input:focus{
+  box-shadow: 1px 1px 32px #129b7e;
+}
+.App-header button{
+  cursor: pointer;
+  background-color: #0a715c;
+  color: #efefef;
+  padding: 8px;
+  font-size: 22px;
+  border-radius: 10px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-main {
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.data{
+  width: 80vw;
+  padding: 0 32px;
+  text-align: start;
+  justify-content: start;
+  display: flex;
+  flex-direction: column;
+}
